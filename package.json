@@ -6,9 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xing0617/gulp-rev-append-xdf.git"
+  },
   "keywords": [
     "xdf"
   ],
   "author": "xingshuo",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xing0617/gulp-rev-append-xdf/issues"
+  },
+  "homepage": "https://github.com/xing0617/gulp-rev-append-xdf#readme",
+  "dependencies": {
+    "event-stream": "^3.1.0",
+    "gulp-util": "^2.2.14"
+  },
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "cucumber": "^0.4.0"
+  }
 }
